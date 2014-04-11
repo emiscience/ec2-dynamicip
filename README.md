@@ -58,11 +58,28 @@ Todo
 2. Have a menu rather than a yes/no wizard so there is a greater choice of things to do
 3. Have command line arguements to make it more scriptable
 
+Proof of Concept
+----
+Below is a screenshot of iTerm (Mac OSX)of me showing you before running the ec2-dynamicip.sh script and after. Before the script, I renewed my DHCP lease getting my another dynamic IP from the ISP (i.e. it's not been authorised to access the example internal server I set up). I then ran the script, agreed to both reauthorising the OLD IP, then agreed to authorising the NEW IP...
+
+Finally, presto, I can now ping the server.<br><br>
+
+![alt text](https://raw.github.com/emiscience/ec2-dynamicip/master/example-images/ec2-dynamicip-in-action.png "ec2-dynamicip.sh Proof Of Concept")
+
 
 License
 ----
 
 GNU GENERAL PUBLIC LICENS  Version 3
+
+
+Other
+----
+have fun and feel free to contribute! EMI Science wouldn't be where it is today without 
+the opensource community and therefor support it fully.
+
+Thankyou - Adrian Sluijters - Managing Director
+
 
 [Amazon Web Services]:http://aws.amazon.coms
 [Amazon Web Services CLI Tools]:http://aws.amazon.com/developertools/351
